@@ -3,6 +3,28 @@ body {
     font-family: 'Pattaya', sans-serif;
 }
 
+#navbar {
+    background-color: #D6D3F0;
+}
+
+.nav-items {
+    padding-left: 0px;
+    margin: auto;
+    width: 300px;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 1.5em;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+#navbar a {
+    color: black;
+}
+
+
 #kat {
     font-family: 'Pattaya', sans-serif;
     color: #0B3142;
