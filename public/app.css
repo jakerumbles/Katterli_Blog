@@ -1,6 +1,7 @@
 body {
     height:900px;
     font-family: 'Pattaya', sans-serif;
+    text-align: center;
 }
 
 #navbar {
@@ -50,7 +51,8 @@ li {
 }
 
 p {
-    font-family: 'Athiti', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-style: oblique;
     font-size: 1.2em;
     color: #D6D3F0;
     text-align: center;
@@ -78,4 +80,43 @@ p {
 .bottom {
     background-color: #0B3142;
     height: 450px;
+}
+
+.post {
+    background-color: inherit;
+    width: 65%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+
+#post-header {
+    font-family: 'Pattaya', sans-serif;
+    color: #0B3142;
+    text-align: center;
+    padding-top: 32px;
+}
+
+#post-body {
+    font-family: 'Playfair Display', serif;
+    font-style: oblique;
+    font-size: 1.2em;
+    color: #0B3142;
+    text-align: center;
+}
+
+#post-header-2 {
+    font-family: 'Pattaya', sans-serif;
+    color: #D6D3F0;
+    text-align: center;
+    padding-top: 32px;
+}
+
+#post-body-2 {
+    font-family: 'Playfair Display', serif;
+    font-style: oblique;
+    font-size: 1.2em;
+    color: #D6D3F0;
+    text-align: center;
 }

@@ -14,6 +14,10 @@ app.get('/', function(req, res) {
     res.render('home');
 });
 
+app.get('/posts', function(req, res) {
+    res.render('posts');
+});
+
 //The server
 app.set('port', (process.env.PORT || 5000));
 app.listen(app.get('port'), function() {
